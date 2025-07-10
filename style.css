@@ -30,7 +30,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 50px 150px;
-    gap: 780px;
+    gap: 750px;
 
 }
 
@@ -75,3 +75,39 @@
 }
 
 /* banner section style end */
+
+/* action section style start */
+
+.action-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+
+    margin: 100px 170px 100px 140px;
+
+}
+
+.action-section-content {
+    padding: 20px 200px 20px 10px;
+}
+
+.action-section-content h3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+.action-section-content p {
+    color: #25243250;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+
+
+.action-section img {
+    border-radius: 44px;
+}
