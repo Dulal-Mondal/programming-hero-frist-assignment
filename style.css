@@ -249,4 +249,76 @@
 
 /* focus on section style end */
 
-/* focus on section style start */
+/* input form section style start */
+
+.input-form-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 150px 10px 150px;
+    padding: 70px 0;
+}
+
+.input-form {}
+
+.input-form-section h2 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.input-form label {
+    font-size: 18px;
+    font-weight: medium;
+    color: black;
+}
+
+.input-form input[type="email"],
+.input-form input[type="text"] {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    background-color: #D6DDED;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    display: block;
+}
+
+.input-form textarea {
+    height: 160px;
+    width: 100%;
+    font-size: 20px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    background-color: #D6DDED;
+    color: black;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    display: block;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 20px 100px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+/* .input-form input[type="button"] {
+    width: 500px;
+    background-color: #4E47FF;
+
+} */
+
+
+/* footer section style start */
