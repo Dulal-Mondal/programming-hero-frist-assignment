@@ -52,7 +52,7 @@ body {
 
 .banner-content {
     text-align: center;
-    margin: 120px 380px 200px 380px;
+    padding: 120px 180px 200px 180px;
 }
 
 .banner-content h1 {
@@ -234,7 +234,7 @@ body {
     gap: 20px;
     flex-direction: column;
     align-items: center;
-    background-color: #faf9f9;
+    background-color: white;
     border-radius: 14px;
 
 
@@ -340,12 +340,12 @@ body {
 /* footer section style start */
 
 footer {
-    background-color: #faf9f9;
+    background-color: white;
 }
 
 .footer-section {
     text-align: center;
-    padding: 40px 600px;
+    padding: 104px 454px;
 
 }
 
@@ -367,8 +367,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 20px 30px;
+    gap: 30px;
+    padding: 20px 0px;
 
 }
 
@@ -387,5 +387,5 @@ footer {
 
 .copy-right {
     text-align: center;
-    margin: 40px 0;
+    padding: 80px 0;
 }
