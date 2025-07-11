@@ -17,6 +17,8 @@
     font-family: "Inter", sans-serif;
 }
 
+
+
 /* banner section style start */
 .banner {
     width: 100%;
@@ -34,7 +36,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 50px 150px;
-    gap: 770px;
+    gap: 750px;
 
 }
 
@@ -48,11 +50,18 @@
 .signUp-btn {
     background-color: #4E47FF;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
+}
+
+.signUp-btn:hover {
+    background-color: #3933e9;
+
+    color: #F2EDED;
+
 }
 
 .banner-content {
@@ -78,6 +87,11 @@
 
 }
 
+.btn:hover {
+    background-color: #2a24ec;
+    font-size: 17px;
+}
+
 /* banner section style end */
 
 /* action section style start */
@@ -87,7 +101,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 70px;
-    margin: 100px 150px;
+    margin: 100px 147px;
 
 }
 
@@ -310,8 +324,6 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
-
-
 }
 
 /* .input-form input[type="button"] {
