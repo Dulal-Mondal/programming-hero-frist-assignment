@@ -92,7 +92,7 @@ body {
 }
 
 .action-section-content {
-    padding: 20px 200px 20px 10px;
+    padding: 20px 150px 20px 10px;
 }
 
 .action-section-content h3 {
@@ -274,9 +274,7 @@ body {
 
 }
 
-.form-title {
-    padding-right: 180px;
-}
+
 
 .input-form label {
     font-size: 18px;
@@ -345,7 +343,7 @@ footer {
 
 .footer-section {
     text-align: center;
-    padding: 104px 454px;
+    padding: 100px 450px;
 
 }
 
@@ -387,5 +385,5 @@ footer {
 
 .copy-right {
     text-align: center;
-    padding: 80px 0;
+    padding: 40px 0;
 }
