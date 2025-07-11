@@ -3,11 +3,10 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* body {
-    background-color: #1E1E1E;
-} */
+
 
 .primary-font {
     font-family: "Raleway", sans-serif;
@@ -33,10 +32,10 @@
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 50px 150px;
-    gap: 750px;
+
 
 }
 
@@ -44,23 +43,6 @@
     font-size: 30px;
     font-weight: bolder;
     color: #4E47FF;
-
-}
-
-.signUp-btn {
-    background-color: #4E47FF;
-    border-radius: 10px;
-    padding: 12px 20px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.signUp-btn:hover {
-    background-color: #3933e9;
-
-    color: #F2EDED;
 
 }
 
@@ -89,7 +71,7 @@
 
 .btn:hover {
     background-color: #2a24ec;
-    font-size: 17px;
+    scale: 1.1;
 }
 
 /* banner section style end */
@@ -98,10 +80,10 @@
 
 .action-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 70px;
-    margin: 100px 147px;
+    margin: 100px 150px;
 
 }
 
@@ -267,10 +249,11 @@
 
 .input-form-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 60px;
     align-items: center;
-    margin: 70px 150px 10px 150px;
-    padding: 70px 0;
+    margin: 70px 160px 10px 160px;
+    padding: 70px 0 70px 0;
 }
 
 
@@ -278,6 +261,11 @@
 .input-form-section h2 {
     font-size: 80px;
     font-weight: bold;
+
+}
+
+.form-title {
+    padding-right: 180px;
 }
 
 .input-form label {
@@ -315,6 +303,8 @@
     display: block;
 }
 
+
+
 .submit-btn {
     width: 100%;
     background-color: #4E47FF;
@@ -341,7 +331,7 @@ footer {
 
 .footer-section {
     text-align: center;
-    padding: 140px 455px;
+    padding: 140px 600px;
 
 }
 
@@ -354,6 +344,7 @@ footer {
 
 .footer-section p {
     color: #8987A1;
+
     font-size: 12px;
 
 }
